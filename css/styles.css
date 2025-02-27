@@ -5,7 +5,7 @@
 
 body {
     font-family: system-ui;
-    background-color: #ffee81; /* Warna abu-abu muda */
+    background-color: #fffad8; 
 }
 
 .main-header {
@@ -22,6 +22,7 @@ body {
     border-radius: 50%;
 }
 
+/* Tombol Navigasi */
 nav {
     display: flex;
 }
@@ -54,6 +55,7 @@ nav > a {
     border-bottom-left-radius: 0px;
 }
 
+/* Header Website */
 main>header {
     text-align: center;
 }
@@ -67,6 +69,7 @@ main>header {
     margin-block-start: 0px;
 }
 
+/* Font Header Website */
 .dela-gothic-one-regular {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 700;
@@ -82,19 +85,71 @@ main>header {
     font-weight: 300;
     font-style: normal;
   }
-  
+
+/* Konten Utama   */
 .main-content {
     display: flex;
     gap: 24px;
 }
 
+/* Banner Autoslide */
 .main-container-1 {
-    height: 500px;
+    height: 600px;
     flex: 2;
-    align-content: center;
+    align-content: top;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 
+.main-banner {
+    height: 300px;
+    background-image: url(https://i.pinimg.com/736x/e2/37/6f/e2376f8ade77d330eafed476665accb4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.banner-img-1 {
+    background-image: url(https://i.pinimg.com/736x/e2/37/6f/e2376f8ade77d330eafed476665accb4.jpg);
+}
+
+.banner-img-2 {
+    background-image: url(https://i.pinimg.com/736x/de/97/f6/de97f6a6eb7ad1e901a67c25a76b2e6f.jpg);
+}
+
+.banner-img-3 {
+    background-image: url(https://i.pinimg.com/736x/26/43/46/264346735e2b52d25f654f0107dfe5ab.jpg);
+}
+
+/* Text di bawah Autoslide */
+.carousel-text {
+    text-align: center; /* Tengahin teks */
+    margin-top: 20px; /* Jarak dari autoslide */
+    font-size: 18px;
+    color: #333;
+}
+
+/* Font Carousel Text */
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}  
+
+.quicksand-uniquifier {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+/* Form Membership */
 .main-container-2 {
     height: 500px;
     flex: 1;
@@ -107,6 +162,58 @@ main>header {
     padding-right: 30px;
 }
 
+.form-container {
+    background: rgb(239, 177, 126);
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #fffad8;
+    color: rgb(12, 12, 12);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Our Product Section */
 #our-product-section>header {
     border-bottom: 1px dashed;
     border-top: 1px dashed;
@@ -116,13 +223,70 @@ main>header {
     background-color: rgb(239, 177, 126);
 }
 
-.our-product-content {
+.our-product-container {
     border-bottom: 1px dashed;
-    height: 300px;
+    height: 3000px;
     align-content: center;
     text-align: center;
+    display: flex;
 }
 
+/* Styling Section */
+.product-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+/* Container Produk */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid fleksibel */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Styling Card Produk */
+.product-card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Styling Gambar */
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Styling Nama Produk */
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+/* Styling Deskripsi */
+.product-card p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+}
+
+/* Call Us Section */
 #call-us-section>header {
     border-bottom: 1px dashed;
     height: 100px;
@@ -138,9 +302,10 @@ main>header {
     text-align: center;
 }
 
+/* Link Instagram */
 .instagram-link {
     text-decoration: none;
-    color: #E4405F; /* Warna khas Instagram */
+    color: #E4405F; /* Instagram's color */
     font-size: 18px;
     font-weight: bold;
 }
@@ -154,7 +319,58 @@ main>header {
     color: #C13584;
 }
 
+/* Footer Website */
 footer {
     text-align: center;
     margin-block-start: 35px;
+}
+
+/* Responsif untuk HP 480 ke bawah */
+@media (max-width: 480px) {
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-container-2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-text {
+        flex-direction: column;
+    }
+}
+
+/* Responsif untuk HP 1200px ke bawah */
+@media (max-width: 1200px) {
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-container-2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel-text {
+        flex-direction: column;
+    }
 }

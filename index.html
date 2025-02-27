@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bestteh</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css\styles.css">
@@ -45,65 +45,194 @@
 
     <hr>
 
-    <!-- Main Content -->
-    <main>
+<!-- Main Content -->
+<main>
+    <header>
+        <h1 style="margin-block-start: 0px; margin-block-end: 0px;">
+        <p class="dela-gothic-one-regular" style="margin-block-start: 0px; margin-block-end: 0px;">BESTTEH</p></h1>
+        <h4 style="margin-block-start: 0px;">
+        <p class="quicksand-uniquifier" style="margin-block-start: 0px"><b>Minuman Nikmat, Harga Hemat</b></p></h4>
+    </header>
+    <section class="main-content">
+
+    <!-- Banner Autoslide -->
+    <aside class="main-container-1">
+        <div class="main-banner banner-img-1"></div>
+        <div class="main-banner banner-img-2"></div>
+        <div class="main-banner banner-img-3"></div>
+            <div class="carousel-text">
+                <h2 class="dela-gothic-one-regular" style="margin-block-end: 0px;">Welcome to Our Tea Collection</h2>
+                <p class="quicksand-uniquifier" style="margin-block-start: 0px;">Enjoy the best selection of refreshing tea flavors, made with love and quality ingredients.
+                    Made from high-quality ingredients, every sip brings you pure enjoyment and freshness.</p>
+
+                <p class="dela-gothic-one-regular" style="margin-block-end: 0px;"><b>Why Choose Us?</b></p>
+                    <p class="quicksand-uniquifier" style="margin-block-start: 0px;">100% Natural Ingredients
+                     Authentic & Premium Taste
+                     Perfect for Any Occasion 
+                        
+                     <p class="quicksand-uniquifier">Find your favorite tea today and experience pure refreshment!</p>
+            </div>
+    </aside>
+
+    <!-- Form Membership -->
+    <aside class="main-container-2">
+        <div class="form-container">
+            <h2>Membership Registration</h2>
+            <p>Join our membership and enjoy exclusive benefits! 
+               Get special discounts, priority access, and exclusive offers just for members.</p>
+            <form id="membershipForm" style="margin-block-start: 25px;">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="At least 6 characters">
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Re-enter your password">
+                </div>
+
+                <div class="form-group" style="margin-top: 30px;">
+                    <button type="submit"><b>Register</b></button>
+                </div>
+            </form>
+            <p id="message" style="color: red;"></p>
+
+    <!-- Pop-up Modal -->
+        <div id="successModal" class="modal">
+            <div class="modal-content"></div>
+        </div>
+    </aside>
+    </section>
+
+    <!-- Our Product Section -->
+    <section id="our-product-section"> 
         <header>
-            <h1 style="margin-block-start: 0px; margin-block-end: 0px;">
-            <p class="dela-gothic-one-regular" style="margin-block-start: 0px; margin-block-end: 0px;">BESTTEH</p></h1>
-            <h4 style="margin-block-start: 0px;">
-            <p class="quicksand-uniquifier" style="margin-block-start: 0px"><b>Minuman Nikmat, Harga Hemat</b></p></h4>
+            <h2>Our Product</h2>
         </header>
-        <section class="main-content">
-    
-        <!-- Banner Autoslide -->
-        <aside class="main-container-1">
-            <p>Banner Autoslide</p>
-        </aside>
-
-        <!-- Form Membership -->
-        <aside class="main-container-2">
-            <p><b>Form Membership</b></p>
-            <a>Join our membership and enjoy exclusive benefits! 
-                Get special discounts, priority access, and exclusive offers just for members.</a>
-        </aside>
-        </section>
-
-        <!-- Our Product Section -->
-        <section id="our-product-section"> 
-            <header>
-                <h2>Our Product</h2>
-            </header>
             
-            <!-- Content Our Product -->
-            <article class="our-product-content">
-            <p>Lorem Ipsum Dolor Sit Amet Adipiscing....</p>  
-            </article>
-        </section>
+    <!-- Content Our Product -->
+    <div class="product-container">
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9C6vrlvaLUZ_TcrFzd-xnDkC3KZugyr3h1ETo8-QO-vJQDQYO2zhWtMoA_wA1dGm-mjX9IsDD1SslfCSrPL6b-3qP7QPDnTCPqb_8ZBoxjop-zhF5ST8T6Va8zzVkx7GguEu6QrSj6jdPChvmViH7xY95bjJ0HsEyozLLB9G_r0v2_Z-0dBwf9y_peXxT/s1024/3.png" alt="Lemon Tea">
+            <h3>Lemon Tea</h3>
+            <p>A refreshing blend of tea with a zesty lemon twist.</p>
+        </div>
 
-        <!-- Call Us Section -->
-         <section id="call-us-section"> 
-            <header>
-                <h2>Call Us</h2>
-            </header>
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBwVQ_b5lt44Byb0uFTjuvE4w-aoiSkgJ5-cKmhep_ScNO_jhP1_ShIr1n5MXJVmpN_6BFE147xVAzHgJ6__fUFWGXzmIywsPJoe2mWLQmQpewXHIaTEKs9uotJz3otkfIgCEBymIRijaxHO3bRBbgEM5uVyz5SQoEbmFgCysDu-kIeKUMpMPaXx0CN-1u/s1024/4.png" alt="Lychee Tea">
+            <h3>Lychee Tea</h3>
+            <p>Sweet and fragrant, a delightful fusion of tea and lychee.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR9nJqC9_A7x9kmz1phJwN4eVBiwlszOHeIotjJ46v1HkIe8IJGBVISFQnKahQO_JmHhkk9D9J6endhpIWkGWU1ZVBBNt10X5T4FwcXjRIuM1fXpFK9VPri3j6sWikiDComE4n9nPf_69HSjzrkW5u5uGURL9AlTINYcSrNtEhpbJTygniadvHKcSOKPcp/s1024/5.png" alt="Blackcurrant Tea">
+            <h3>Blackcurrant Tea</h3>
+            <p>A rich blackcurrant flavor with a perfect balance of sweet and tangy.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdvohn-sZY7GZGKD56K-T4gHiz8QA5ylYyzCpCjGpGQOUsmjNx5AtoduedRYM-HeWRYoku36ACK9PlQYhDD_eBCUaeLAb1oyd8xCv9tMQ2c-5BQIuXZmTAG_tPA1_lKYGml5q3WupjxFqLdXEKhHZwOEL9N_cnw9EycyrsI2xphD7rCPilWXUUKKVsRrp0/s1024/9.png" alt="Guava Tea">
+            <h3>Guava Tea</h3>
+            <p>A unique and exotic blend of tea with the tropical taste of guava.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFNCN3_8guaTAn5AAyNefiLJ9XJe8-WI-c7_cbar3tZ1zE6Z4bRNJu-CwWZ-ic-Y9jvx5xN8nO-covwm5HjZQamt_lrmu74X8A7v11Y_ta-kvxHhVK_sIVEqFFKddBnBwR63L2GZ0trloq-B0AIEvRDAqrP2syjbPXbBL2lpVr5J2Ve-SQmTv5y8LUGYZJ/s1024/6.png" alt="Strawberry Tea">
+            <h3>Strawberry Tea</h3>
+            <p>Sweet and refreshing, perfect for strawberry lovers!</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaNC6Dzmg5ozjlV-31xmBGcvdKeDivI1TB2CLS5ENOb49IrQTwc8qzmQox4DPX8-G6ngJ6-TEIQSS-xLXKGCqwiIepmZKazVw5wU1nhCfak4OJw56yYVgKYijae6ls4zlpaT1VA5HO9wH36mUh_yiJHxVA-TxikB4RBc8nmGqI9voB6tBtJVybnzPE7dCr/s1024/8.png" alt="Passionfruit Tea">
+            <h3>Passionfruit Tea</h3>
+            <p>A delightful combination of tea and passion fruit with a tropical aroma.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg3-uz4gDN_il7OzGjrtrU1sJkHrXzol_X-0Ax8OCsfEvpZRdD38zG-IcqiyUsdEaw42fz6S5qjDknzH9h5toRy8gE85X2a6wv6hwd71sC-TNXo8zmxLjXqQ-APWb_jTRR6WWQPgNJNrT-nDs3RwBpXuA5aH28i8OCssBq0_67Agz_dUfWS2be779DU2eC/s1024/14.png" alt="Apple Tea">
+            <h3>Apple Tea</h3>
+            <p>A crisp and refreshing tea infused with the natural sweetness of apples.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNZ6SOsOZnx1la4xi385XERBB9X_33A-13dgcL2BFad2x7NZv3rs9kH3NUji-Z9eVwyLRW_jzrIfk1TJ1tj2YVxpigr1PK4C7exUVI_4xI8QzhRVY5Skk766S6STYAkPc_-fbRg42ehgExR_vD0t82_bSyoJxpLhUnkQ9-fqk2vF0fpqhKzFBIgMPl7gpn/s1024/7.png" alt="Mango Tea">
+            <h3>Mango Tea</h3>
+            <p>A tropical delight combining the sweetness of mango with aromatic tea.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3oXKCDZy7SYYNztO9vmurCafw5KngW-lP0e90_Faa8E9mBg-Yj3i9jOo1xUw483_uAwZOIm4FZu2WCFVikCZa9_Z_bz54EAQHHRqV-HI3RQDGa2iLaDYT_3ycQF2Xs3jJkC9_i6tBCDOuIXs4Sn_Nkrds-3Afr2ThJbDSnt6rdyoJw6f2TgR4lNmZnR1G/s1024/13.png" alt="Milk Tea">
+            <h3>Milk Tea</h3>
+            <p>A smooth and creamy tea experience, perfect for milk tea lovers!</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXRaJ5lUenzYdhs7nqoIQDbp1VFyVJqrankn4cRWwJ7VNedcVy1Xo8LLc5tIXUeS6W-W_cwF89zqQSECq14BlZRGMm-Y1zdsFUDZ4EchH2rpTfhSdoyJpdlZZAsKbSIVjvYTKTl4W6FU8fBWT_2B_IR0iuOqWbCqMYE3dMX0MhRtA3pgnytVLECmK6H4LM/s1024/11.png" alt="Green Tea">
+            <h3>Green Tea</h3>
+            <p>Classic and soothing, packed with health benefits.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRmgzB-5qkfX_B4lYAabRx1ftGL1qGtcc7zlJpN-OJHH73yCBbv48RQ8271Y-c4UMC1_t0X8RkLJcC7LixmD2cmXCE9AmEHv_KcbRZ5MScXubf6R0ti5FsFyaViUXb18xVuZDNbJ7ktfXg0iVFhMD6DqfwZtp_xOkxfyDUe2lcbP88YyjUA_CblrIeLDbB/s1024/10.png" alt="Thai Tea">
+            <h3>Thai Tea</h3>
+            <p>A creamy and indulgent Thai-style milk tea with a rich, bold flavor.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSKu_YGB9-W1J43JDxG-zy4O-ogcVyrwDGFuDCM8Q2UwycKERRsOWfm-A9htkud4q6xyP4dETrd9lCII-mt5Elf_0qJ2LkmZ_QXQt29IjvaUDnNYaD1gYgKZJzdrJahyphenhyphenNpYkA3WIGf-foft6YVRbY9FlW76Adb4pOMulqMwSIJOwx6ROx-GUzQasCgYRWb/s1024/12.png" alt="Chocolate Tea">
+            <h3>Chocolate Tea</h3>
+            <p>A unique mix of tea and chocolate for a smooth, velvety taste.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Md1vBiTL48c-UR-tMPhvSD_C15MN_3_sIjGZvxL6qbvZPB375u3TfZBakSSrcYnXTT-2VxfMsVv2Hd0BukfuoYYE9-pPH_mX9GNIScRP6xm4EmXCnrzwkUmn8p8rxlVDm6GIKVn4gtPWqfIyvR5lQ-XcFuVoysQhH3kpVUFah1nchVub-ednMTrkxHay/s1024/varian%20(1080%20x%201350%20px)%20(250%20x%20250%20px)%20(Presentation%20(43)).png" alt="Original Tea">
+            <h3>Original Tea</h3>
+            <p>A timeless and authentic blend, crafted for true tea lovers.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTG2PR4Bkufqr-utXlK7hAEazoCT6kQnMwiSU8yEZ0M7GEIAuYvEOoSfD7Vq4fWXADHEABlyEDYMLoNFO9QR3_FkLUtpeuPFfyIJCI99U86Ldp2012gKEkc5eje6U4DCEHwjg9TBr-ufrvfaLd8M7bv9kko0q4brvwgrchJd0a2CD90-Y34JU1bJLZ1xgF/s1024/varian%20(1080%20x%201350%20px)%20(250%20x%20250%20px)%20(Presentation%20(43))%20(1).png" alt="Jasmine Tea">
+            <h3>Jasmine Tea</h3>
+            <p>A delicate floral aroma for a relaxing and calming tea experience.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Call Us Section -->
+    <section id="call-us-section"> 
+        <header>
+            <h2>Call Us</h2>
+        </header>
             
-        <!-- Content Call Us -->
-        <article class="call-us-content">
-            <a><p><b>Got a question?
+    <!-- Content Call Us -->
+    <article class="call-us-content">
+        <a><p><b>Got a question?
                Reach out to us</b></p>
-            <p style="margin-block-end: 0px;">Jl. Saleh Sungkar No. 42a, Ampenan, Mataram</p>
-            <p style="margin-block-start: 0px; margin-block-end: 0px;">Open: Monday - Sunday,  9 AM - 21 PM</p>
-            <p style="margin-block-start: 5px;">besttehid@gmail.com</p></a>
-            <p><b>Follow us on:</p></b>
-            <a href="https://www.instagram.com/besttehid?igsh=djU4eHV4dmpoY2xo" target="_blank" class="instagram-link">
-            <i class="fa-brands fa-instagram">@besttehid</i></a>
-        </article>
-        </section>
-    </main>
+        <p style="margin-block-end: 0px;">Jl. Saleh Sungkar No. 42a, Ampenan, Mataram</p>
+        <p style="margin-block-start: 0px; margin-block-end: 0px;">Open: Monday - Sunday,  9 AM - 21 PM</p>
+        <p style="margin-block-start: 5px;">besttehid@gmail.com</p></a>
+        <p><b>Follow us on:</p></b>
+        <a href="https://www.instagram.com/besttehid?igsh=djU4eHV4dmpoY2xo" target="_blank" class="instagram-link">
+        <i class="fa-brands fa-instagram">@besttehid</i></a>
+    </article>
+    </section>
+</main>
 
-    <!-- Footer -->
-    <footer>
-        <p>Made by Elita@2025</p>
-    </footer>
+<!-- Footer -->
+<footer>
+    <p>Made by Elita@2025</p>
+</footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
